@@ -5,6 +5,8 @@
         "location": {
             "value": "eastus"
         },
+        "adminPassword": {
+           "value": "YourSecretPassword},
         "networkInterfaceName1": {
             "value": "jamaltest296_z1"
         },
