@@ -1,0 +1,13 @@
+//Template deploy command. In this example I mistakenly put the password value in the parameter file which is wrong
+
+$templateFile = “{https://raw.githubusercontent.com/ezyhacks/AZ-204/main/template.json}”
+$parameterFile=“{https://raw.githubusercontent.com/ezyhacks/AZ-204/main/vmdeploy.json}”
+New-AzResourceGroup `
+  -Name myResourceGroupDev `
+  -Location "East US"
+New-AzResourceGroupDeployment `
+  -Name devenvironment `
+  -ResourceGroupName myResourceGroupDev `
+  -TemplateFile $templateFile `
+  -TemplateParameterFile $parameterFile
+
