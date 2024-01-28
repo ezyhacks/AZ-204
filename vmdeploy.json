@@ -5,9 +5,6 @@
         "location": {
             "value": "eastus"
         },
-        "adminPassword": {
-            "value": "Didier210@#!"
-        },
         "networkInterfaceName1": {
             "value": "jamaltest296_z1"
         },
@@ -95,7 +92,7 @@
             "value": "rootuser"
         },
         "adminPassword": {
-            "value": null
+            "value": "Didier210@#!"
         },
         "securityType": {
             "value": "TrustedLaunch"
